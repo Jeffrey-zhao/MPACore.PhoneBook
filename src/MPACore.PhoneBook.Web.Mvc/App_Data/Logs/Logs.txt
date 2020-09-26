@@ -1,0 +1,349 @@
+DEBUG 2020-09-26 11:12:32,748 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-26 11:12:35,265 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-26 11:12:35,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:35,288 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-26 11:12:35,524 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-26 11:12:35,524 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-26 11:12:35,524 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-26 11:12:35,524 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-26 11:12:35,894 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-26 11:12:37,476 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-26 11:12:37,588 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-26 11:12:37,626 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-26 11:12:37,650 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-09-26 11:12:37,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-26 11:12:37,863 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-26 11:12:37,980 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-09-26 11:12:38,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-26 11:12:38,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-26 11:12:38,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-09-26 11:12:38,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-09-26 11:12:38,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-26 11:12:38,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-26 11:12:38,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-09-26 11:12:38,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-26 11:12:38,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-26 11:12:38,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-26 11:12:38,025 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-26 11:12:44,559 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-26 11:12:44,559 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2020-09-26 11:12:44,635 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.3817ms 200 
+INFO  2020-09-26 11:12:47,822 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc)
+WARN  2020-09-26 11:12:48,234 [6    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2020-09-26 11:12:48,238 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-09-26 11:12:48,248 [6    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2020-09-26 11:12:48,268 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-09-26 11:12:48,272 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 445.6446ms
+INFO  2020-09-26 11:12:48,292 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-26 11:12:48,294 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3742.4777ms 302 
+INFO  2020-09-26 11:12:48,323 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-09-26 11:12:50,696 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2020-09-26 11:12:50,706 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.3283ms.
+INFO  2020-09-26 11:12:50,903 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-09-26 11:12:51,644 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 825.166ms.
+INFO  2020-09-26 11:12:51,651 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) in 3325.6213ms
+INFO  2020-09-26 11:12:51,667 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3373.5515ms 200 text/html; charset=utf-8
+INFO  2020-09-26 11:12:51,713 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2020-09-26 11:12:51,715 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2020-09-26 11:12:51,719 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2020-09-26 11:12:51,720 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2020-09-26 11:12:51,723 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2020-09-26 11:12:51,725 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2020-09-26 11:12:51,756 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2020-09-26 11:12:51,758 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2020-09-26 11:12:51,762 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2020-09-26 11:12:51,772 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.984ms 200 text/css
+INFO  2020-09-26 11:12:51,775 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.3035ms 200 text/css
+INFO  2020-09-26 11:12:51,785 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2020-09-26 11:12:51,786 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2020-09-26 11:12:51,787 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2020-09-26 11:12:51,789 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2020-09-26 11:12:51,791 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 85.4818ms 200 text/css
+INFO  2020-09-26 11:12:51,792 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.4065ms 200 text/css
+INFO  2020-09-26 11:12:51,794 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2020-09-26 11:12:51,795 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2020-09-26 11:12:51,797 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.5151ms 200 text/css
+INFO  2020-09-26 11:12:51,800 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2020-09-26 11:12:51,811 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2020-09-26 11:12:51,815 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-09-26 11:12:51,818 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2020-09-26 11:12:51,820 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.8219ms 200 text/css
+INFO  2020-09-26 11:12:51,822 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.5922ms 200 text/css
+INFO  2020-09-26 11:12:51,823 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.8613ms 200 text/css
+INFO  2020-09-26 11:12:51,825 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2020-09-26 11:12:51,827 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2020-09-26 11:12:51,829 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2020-09-26 11:12:51,837 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2020-09-26 11:12:51,843 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2020-09-26 11:12:51,845 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.8095ms 200 text/css
+INFO  2020-09-26 11:12:51,847 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.087ms 200 application/javascript
+INFO  2020-09-26 11:12:51,849 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2020-09-26 11:12:51,852 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2020-09-26 11:12:51,855 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2020-09-26 11:12:51,857 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.0754ms 200 text/css
+INFO  2020-09-26 11:12:51,861 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-26 11:12:51,866 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-09-26 11:12:51,870 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2020-09-26 11:12:51,874 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.7455ms 200 text/css
+INFO  2020-09-26 11:12:51,880 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2020-09-26 11:12:51,884 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2020-09-26 11:12:51,886 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.9462ms 200 application/javascript
+INFO  2020-09-26 11:12:51,891 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.9873ms 200 application/javascript
+INFO  2020-09-26 11:12:51,894 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-09-26 11:12:51,897 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2020-09-26 11:12:51,900 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2020-09-26 11:12:51,903 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2020-09-26 11:12:51,907 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.5144ms 200 text/css
+INFO  2020-09-26 11:12:51,913 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2020-09-26 11:12:51,918 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.1558ms 200 application/javascript
+INFO  2020-09-26 11:12:51,922 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2020-09-26 11:12:51,924 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2020-09-26 11:12:51,926 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-09-26 11:12:51,928 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.3469ms 200 application/javascript
+INFO  2020-09-26 11:12:51,929 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.8103ms 200 application/javascript
+INFO  2020-09-26 11:12:51,931 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.2955ms 200 application/javascript
+INFO  2020-09-26 11:12:51,936 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2020-09-26 11:12:51,940 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2020-09-26 11:12:51,942 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2020-09-26 11:12:51,944 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2020-09-26 11:12:51,946 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.2771ms 200 application/javascript
+INFO  2020-09-26 11:12:51,950 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2020-09-26 11:12:51,954 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2020-09-26 11:12:51,959 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.1053ms 200 application/javascript
+INFO  2020-09-26 11:12:51,964 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2020-09-26 11:12:51,967 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2020-09-26 11:12:51,970 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-09-26 11:12:51,975 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-09-26 11:12:51,987 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2020-09-26 11:12:51,990 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2020-09-26 11:12:51,994 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.2569ms 200 application/javascript
+INFO  2020-09-26 11:12:51,997 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.3007ms 200 application/javascript
+INFO  2020-09-26 11:12:52,001 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-09-26 11:12:52,006 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=Or9x-cFG7xQuzM6rsm13Mu2ucyrL4r3oR0duI0uktYk  
+INFO  2020-09-26 11:12:52,011 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-09-26 11:12:52,012 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.6691ms 200 application/javascript
+INFO  2020-09-26 11:12:52,015 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2020-09-26 11:12:52,020 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-09-26 11:12:52,023 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.6452ms 200 application/javascript
+INFO  2020-09-26 11:12:52,027 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.7677ms 200 application/javascript
+INFO  2020-09-26 11:12:52,034 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637367155579816016  
+INFO  2020-09-26 11:12:52,037 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.3192ms 200 application/javascript
+INFO  2020-09-26 11:12:52,043 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637367155579816016  
+INFO  2020-09-26 11:12:52,046 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-09-26 11:12:52,047 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637367155716270106  
+INFO  2020-09-26 11:12:52,049 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2020-09-26 11:12:52,056 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.8439ms 200 application/javascript
+INFO  2020-09-26 11:12:52,058 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-09-26 11:12:52,066 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-09-26 11:12:52,072 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.6121ms 200 application/javascript
+INFO  2020-09-26 11:12:52,077 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2020-09-26 11:12:52,080 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2020-09-26 11:12:52,086 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.5209ms 200 application/javascript
+INFO  2020-09-26 11:12:52,088 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.6796ms 200 application/javascript
+INFO  2020-09-26 11:12:52,090 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2020-09-26 11:12:52,092 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2020-09-26 11:12:52,093 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2020-09-26 11:12:52,096 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2020-09-26 11:12:52,097 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.0483ms 200 font/woff2
+INFO  2020-09-26 11:12:52,100 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.7902ms 200 font/woff2
+INFO  2020-09-26 11:12:52,104 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2020-09-26 11:12:52,109 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\js\admin.js'
+INFO  2020-09-26 11:12:52,111 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.5683ms 200 font/woff2
+INFO  2020-09-26 11:12:52,116 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-26 11:12:52,119 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2020-09-26 11:12:52,122 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.5623ms 200 application/javascript
+INFO  2020-09-26 11:12:52,127 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-09-26 11:12:52,130 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-09-26 11:12:52,132 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-09-26 11:12:52,133 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.69ms 200 application/javascript
+INFO  2020-09-26 11:12:52,135 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.0047ms 200 image/png
+INFO  2020-09-26 11:12:52,159 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-09-26 11:12:52,162 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-09-26 11:12:52,217 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-09-26 11:12:52,351 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 189.5912ms.
+INFO  2020-09-26 11:12:52,357 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-26 11:12:52,362 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 224.5831ms
+INFO  2020-09-26 11:12:52,364 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 338.6453ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-26 11:12:52,384 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 164.9413ms.
+INFO  2020-09-26 11:12:52,387 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-26 11:12:52,390 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 225.2378ms
+INFO  2020-09-26 11:12:52,393 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 354.4616ms 200 application/x-javascript
+INFO  2020-09-26 11:12:52,752 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-26 11:12:52,756 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-09-26 11:12:52,758 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.7059ms 200 image/x-icon
+INFO  2020-09-26 11:13:03,088 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-09-26 11:13:03,099 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-09-26 11:13:03,213 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2020-09-26 11:13:03,989 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-09-26 11:13:03,994 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 779.0391ms.
+INFO  2020-09-26 11:13:04,049 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-26 11:13:04,059 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) in 957.0036ms
+INFO  2020-09-26 11:13:04,061 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 973.3463ms 200 application/json; charset=utf-8
+INFO  2020-09-26 11:13:04,077 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-26 11:13:04,123 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-09-26 11:13:04,154 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-09-26 11:13:04,178 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) - Validation state: Valid
+INFO  2020-09-26 11:13:04,180 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4518ms.
+INFO  2020-09-26 11:13:04,221 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-26 11:13:05,006 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 781.3879ms.
+INFO  2020-09-26 11:13:05,012 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 886.6662ms
+INFO  2020-09-26 11:13:05,017 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 938.2357ms 200 text/html; charset=utf-8
+INFO  2020-09-26 11:13:05,040 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2020-09-26 11:13:05,042 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2020-09-26 11:13:05,046 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2020-09-26 11:13:05,047 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2020-09-26 11:13:05,051 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-09-26 11:13:05,057 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2020-09-26 11:13:05,058 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2020-09-26 11:13:05,060 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.5066ms 200 text/css
+INFO  2020-09-26 11:13:05,064 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+INFO  2020-09-26 11:13:05,069 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.8504ms 200 text/css
+INFO  2020-09-26 11:13:05,072 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.7472ms 200 text/css
+INFO  2020-09-26 11:13:05,074 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637367155579816016  
+INFO  2020-09-26 11:13:05,076 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2020-09-26 11:13:05,078 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2020-09-26 11:13:05,081 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2020-09-26 11:13:05,085 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.3656ms 200 text/css
+INFO  2020-09-26 11:13:05,087 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2020-09-26 11:13:05,089 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2020-09-26 11:13:05,091 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637367155579816016  
+INFO  2020-09-26 11:13:05,093 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.1371ms 200 application/javascript
+INFO  2020-09-26 11:13:05,100 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2020-09-26 11:13:05,110 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.5916ms 200 application/javascript
+INFO  2020-09-26 11:13:05,113 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2020-09-26 11:13:05,114 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=DeOex_tR7FzkV208FN2wnFJvIUIKXWsVjbW0171naJo  
+INFO  2020-09-26 11:13:05,118 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-09-26 11:13:05,121 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=8bQpuR0dFdbi0KIM9VVSonDAxoXNRsdDAvuSZSI8Oyw  
+INFO  2020-09-26 11:13:05,124 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.6457ms 200 application/javascript
+INFO  2020-09-26 11:13:05,127 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-09-26 11:13:05,155 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-09-26 11:13:05,156 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2020-09-26 11:13:05,162 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-09-26 11:13:05,212 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.16ms 200 application/javascript
+INFO  2020-09-26 11:13:05,221 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+INFO  2020-09-26 11:13:05,222 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2020-09-26 11:13:05,225 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2020-09-26 11:13:05,227 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 113.8405ms 200 application/javascript
+INFO  2020-09-26 11:13:05,231 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.6011ms 200 application/javascript
+INFO  2020-09-26 11:13:05,232 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2020-09-26 11:13:05,234 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2020-09-26 11:13:05,238 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.1718ms.
+INFO  2020-09-26 11:13:05,240 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-09-26 11:13:05,242 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\images\user.png'
+INFO  2020-09-26 11:13:05,245 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-26 11:13:05,247 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2020-09-26 11:13:05,251 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.2855ms 200 image/png
+INFO  2020-09-26 11:13:05,254 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\images\user-img-background.jpg'
+INFO  2020-09-26 11:13:05,258 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 125.6599ms
+INFO  2020-09-26 11:13:05,286 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 175.3676ms 200 application/javascript
+INFO  2020-09-26 11:13:05,305 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2020-09-26 11:13:05,333 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2020-09-26 11:13:05,347 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.8826ms 200 image/jpeg
+INFO  2020-09-26 11:13:05,348 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.8101ms 200 font/woff2
+INFO  2020-09-26 11:13:05,355 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2020-09-26 11:13:05,351 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 174.852ms 200 application/x-javascript
+INFO  2020-09-26 11:13:05,357 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2020-09-26 11:13:05,359 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+INFO  2020-09-26 11:13:05,361 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2020-09-26 11:13:05,363 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2020-09-26 11:13:05,369 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73.9725ms 200 application/javascript
+INFO  2020-09-26 11:13:05,377 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2020-09-26 11:13:05,380 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+INFO  2020-09-26 11:13:05,387 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2020-09-26 11:13:05,392 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.4538ms 200 application/javascript
+INFO  2020-09-26 11:13:05,394 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.4533ms 200 application/javascript
+INFO  2020-09-26 11:13:05,402 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2020-09-26 11:13:05,406 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2020-09-26 11:13:05,411 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2020-09-26 11:13:05,413 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2020-09-26 11:13:05,415 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2020-09-26 11:13:05,421 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 126.3118ms 200 application/javascript
+INFO  2020-09-26 11:13:05,423 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+INFO  2020-09-26 11:13:05,425 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2020-09-26 11:13:05,431 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.5973ms 200 application/javascript
+INFO  2020-09-26 11:13:05,435 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2020-09-26 11:13:05,437 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.9746ms 200 application/javascript
+INFO  2020-09-26 11:13:05,439 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.7093ms 200 application/javascript
+INFO  2020-09-26 11:13:05,441 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-09-26 11:13:05,442 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.9407ms 200 application/javascript
+INFO  2020-09-26 11:13:05,444 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.9409ms 200 application/javascript
+INFO  2020-09-26 11:13:05,446 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2020-09-26 11:13:05,454 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+INFO  2020-09-26 11:13:05,457 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 211.3868ms.
+INFO  2020-09-26 11:13:05,459 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.8096ms 200 application/javascript
+INFO  2020-09-26 11:13:05,461 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-26 11:13:05,467 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 333.3807ms
+INFO  2020-09-26 11:13:05,470 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 396.6139ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-26 11:13:05,477 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-26 11:13:05,521 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.8822ms 200 application/json
+INFO  2020-09-26 11:13:05,687 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=eZ_PPVKPV9bGsk6psxZqWA  
+INFO  2020-09-26 11:13:05,955 [11   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-09-26 11:13:05,984 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"eZ_PPVKPV9bGsk6psxZqWA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-26T11:13:05.9776794+08:00","Properties":{}}
+DEBUG 2020-09-26 11:13:06,055 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: eZ_PPVKPV9bGsk6psxZqWA
+INFO  2020-09-26 11:13:09,289 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2  
+INFO  2020-09-26 11:13:09,320 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'
+INFO  2020-09-26 11:13:09,322 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.1421ms 200 font/woff2
+INFO  2020-09-26 11:13:10,627 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=zh-Hans&returnUrl=/  
+INFO  2020-09-26 11:13:10,635 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2020-09-26 11:13:10,665 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (zh-Hans, /) - Validation state: Valid
+INFO  2020-09-26 11:13:10,791 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 124.1703ms.
+INFO  2020-09-26 11:13:10,795 [14   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2020-09-26 11:13:10,798 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 161.347ms
+INFO  2020-09-26 11:13:10,805 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 173.465ms 302 
+INFO  2020-09-26 11:13:10,808 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-26 11:13:10,817 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-09-26 11:13:10,820 [14   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-09-26 11:13:10,842 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) - Validation state: Valid
+INFO  2020-09-26 11:13:10,844 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0227ms.
+INFO  2020-09-26 11:13:10,876 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-26 11:13:11,091 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 213.3362ms.
+INFO  2020-09-26 11:13:11,094 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 273.4894ms
+INFO  2020-09-26 11:13:11,100 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 289.2926ms 200 text/html; charset=utf-8
+DEBUG 2020-09-26 11:13:11,136 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: eZ_PPVKPV9bGsk6psxZqWA
+INFO  2020-09-26 11:13:11,157 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5469.407ms 101 
+INFO  2020-09-26 11:13:11,162 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637367155579816016  
+INFO  2020-09-26 11:13:11,170 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637367155579816016  
+INFO  2020-09-26 11:13:11,176 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-09-26 11:13:11,182 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js?v=43895rQGsnOPb7xfOFMbaJN_v2aOQrPBt_cVRxsPWxo  
+INFO  2020-09-26 11:13:11,212 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-09-26 11:13:11,219 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-09-26 11:13:11,246 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.0522ms.
+INFO  2020-09-26 11:13:11,247 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-09-26 11:13:11,252 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-26 11:13:11,256 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/src/localization/messages_zh_Hans.js'. Physical path: 'D:\明源\MPACore.PhoneBook\4.8.0\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-validation\src\localization\messages_zh_Hans.js'
+INFO  2020-09-26 11:13:11,258 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 74.7687ms
+INFO  2020-09-26 11:13:11,262 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.3121ms 200 application/javascript
+INFO  2020-09-26 11:13:11,263 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 103.9746ms 200 application/x-javascript
+INFO  2020-09-26 11:13:11,338 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 88.8909ms.
+INFO  2020-09-26 11:13:11,340 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-26 11:13:11,345 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 128.6076ms
+INFO  2020-09-26 11:13:11,353 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 190.2547ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-26 11:13:11,358 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-26 11:13:11,371 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.1327ms 200 application/json
+INFO  2020-09-26 11:13:11,394 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=7AFDFZtmV69EnWYjNBY6Lw  
+INFO  2020-09-26 11:13:11,505 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-09-26 11:13:11,505 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"7AFDFZtmV69EnWYjNBY6Lw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-26T11:13:11.505497+08:00","Properties":{}}
+DEBUG 2020-09-26 11:13:11,505 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 7AFDFZtmV69EnWYjNBY6Lw
