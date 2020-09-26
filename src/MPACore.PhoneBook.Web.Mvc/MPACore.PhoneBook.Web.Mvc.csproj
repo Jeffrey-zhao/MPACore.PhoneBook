@@ -11,6 +11,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="wwwroot\view-resources\Views\Persons\index.js" />
     <None Update="Dockerfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -26,8 +27,9 @@
     <ProjectReference Include="..\MPACore.PhoneBook.Web.Core\MPACore.PhoneBook.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3">
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="AspNet.Security.OpenIdConnect.Server" Version="2.0.0" />
@@ -49,6 +51,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Models\Persons\" />
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
   </ItemGroup>
 </Project>

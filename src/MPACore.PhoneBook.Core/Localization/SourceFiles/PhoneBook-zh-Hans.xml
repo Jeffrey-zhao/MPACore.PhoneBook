@@ -96,8 +96,11 @@
     <text name="DefaultPasswordIs">默认密码为：{0}</text>
     <text name="DeleteTenantConfirm">确认删除该租户？</text>
     <text name="EditTenant">编辑租户</text>
-    
-    
+
+	  <text name="Persons">联系人</text>
+	  <text name="Email">邮箱</text>
+	  <text name="Address">地址</text>
+
   </texts>
 </localizationDictionary>
 

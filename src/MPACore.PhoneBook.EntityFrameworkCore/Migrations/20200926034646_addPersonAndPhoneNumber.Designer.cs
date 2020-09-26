@@ -4,14 +4,16 @@ using MPACore.PhoneBook.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MPACore.PhoneBook.Migrations
 {
     [DbContext(typeof(PhoneBookDbContext))]
-    partial class PhoneBookDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200926034646_addPersonAndPhoneNumber")]
+    partial class addPersonAndPhoneNumber
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1102,7 +1104,7 @@ namespace MPACore.PhoneBook.Migrations
                     b.Property<DateTime?>("DeletionTime");
 
                     b.Property<string>("Email")
-                        .HasMaxLength(80);
+                        .HasMaxLength(50);
 
                     b.Property<bool>("IsDeleted");
 
