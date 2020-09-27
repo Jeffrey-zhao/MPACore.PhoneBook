@@ -8,7 +8,7 @@ using System.Text;
 
 namespace MPACore.PhoneBook.PhoneBooks.Dto
 {
-    [AutoMapTo(typeof(Person))]
+    [AutoMap(typeof(Person))]
     public class PersonEditDto
     {
         public int? Id { get; set; }

@@ -56,7 +56,7 @@ namespace MPACore.PhoneBook.PhoneBooks
             return new PagedResultDto<PersonListDto>(personCount, dtos);
         }
 
-        public async Task<PersonListDto> GetPersonByIdAysnc(NullableIdDto input)
+        public async Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
         {
             var person = await _personRepository.GetAsync(input.Id.Value);
             return ObjectMapper.Map<PersonListDto>(person);
@@ -71,6 +71,25 @@ namespace MPACore.PhoneBook.PhoneBooks
         protected async Task CreatePersonAsync(PersonEditDto input)
         {
             await _personRepository.InsertAsync(ObjectMapper.Map<Person>(input));
+        }
+
+        public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto input)
+        {
+            var output = new GetPersonForEditOutput();
+            PersonEditDto personEditDto;
+
+            if (input.Id.HasValue)
+            {
+                var entity = await _personRepository.GetAsync(input.Id.Value);
+                personEditDto = ObjectMapper.Map<PersonEditDto>(entity);
+            }
+            else
+            {
+                personEditDto = new PersonEditDto();
+            }
+
+            output.Person = personEditDto;
+            return output;
         }
     }
 }
