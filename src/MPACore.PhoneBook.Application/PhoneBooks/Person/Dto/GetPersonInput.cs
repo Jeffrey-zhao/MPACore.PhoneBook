@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MPACore.PhoneBook.PhoneBooks.Dto
+namespace MPACore.PhoneBook.PhoneBooks.Person.Dto
 {
     public class GetPersonInput : PagedAndSortedInputDto, IShouldNormalize
     {

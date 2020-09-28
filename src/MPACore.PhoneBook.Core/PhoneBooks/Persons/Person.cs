@@ -1,6 +1,7 @@
 ﻿using Abp.Domain.Entities;
 using Abp.Domain.Entities.Auditing;
 using Microsoft.Extensions.Logging;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -33,5 +34,10 @@ namespace MPACore.PhoneBook.PhoneBooks.Persons
         /// </summary>
         [MaxLength(PhoneBookConsts.MaxAddressLength)]
         public string Address { get; set; }
+
+        /// <summary>
+        /// 电话号码属性
+        /// </summary>
+        public ICollection<PhoneNumber> PhoneNumbers { get; set; }
     }
 }

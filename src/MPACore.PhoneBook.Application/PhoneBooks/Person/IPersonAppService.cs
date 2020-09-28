@@ -1,12 +1,9 @@
 ﻿using Abp.Application.Services;
 using Abp.Application.Services.Dto;
-using MPACore.PhoneBook.PhoneBooks.Dto;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using MPACore.PhoneBook.PhoneBooks.Person.Dto;
 using System.Threading.Tasks;
 
-namespace MPACore.PhoneBook.PhoneBooks
+namespace MPACore.PhoneBook.PhoneBooks.Person
 {
     public interface IPersonAppService : IApplicationService
     {
@@ -15,7 +12,7 @@ namespace MPACore.PhoneBook.PhoneBooks
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        Task<PagedResultDto<PersonListDto>> GetPagedPersonAysnc(GetPersonInput input);
+        Task<PagedResultDto<Person.Dto.PersonListDto>> GetPagedPersonAysnc(GetPersonInput input);
         /// <summary>
         /// 根据Id获取联系人信息
         /// </summary>

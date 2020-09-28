@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
-{ 
+{
     /// <summary>
     /// 号码类型
     /// </summary>
@@ -12,7 +12,7 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
         /// <summary>
         /// 手机
         /// </summary>
-        Mobile,
+        Mobile = 1,
         /// <summary>
         /// 座机
         /// </summary>

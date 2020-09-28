@@ -14,6 +14,13 @@
             }
 
             var personEditDto = _$form.serializeFormToObject();
+
+            personEditDto.PhoneNumbers = [];
+            var phoneNumber = {};
+            phoneNumber.PhoneType = personEditDto.PhoneNumberType;
+            phoneNumber.Number = personEditDto.PhoneNumber;
+            personEditDto.PhoneNumbers.push(phoneNumber);
+
             abp.ui.setBusy(_$modal);
 
             _personService.createOrUpdatePerson(personEditDto).done(function () {
@@ -60,6 +67,8 @@
                 $("input[name=Name").val(data.person.name).parent().addClass("focused");
                 $("input[name=Email").val(data.person.email).parent().addClass("focused");
                 $("input[name=Address").val(data.person.address).parent().addClass("focused");
+                $("input[name=PhoneNumber").val(data.person.phoneNumbers[0].number).parent().addClass("focused");
+                $("select[name=PhoneNumberType").selectpicker('val', data.person.phoneNumbers[0].PhoneType);
             })
         });
 

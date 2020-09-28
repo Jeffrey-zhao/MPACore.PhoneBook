@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MPACore.PhoneBook.Controllers;
-using MPACore.PhoneBook.PhoneBooks;
-using MPACore.PhoneBook.PhoneBooks.Dto;
+using MPACore.PhoneBook.PhoneBooks.Person;
+using MPACore.PhoneBook.PhoneBooks.Person.Dto;
+using System.Threading.Tasks;
 
 namespace MPACore.PhoneBook.Web.Controllers
 {
